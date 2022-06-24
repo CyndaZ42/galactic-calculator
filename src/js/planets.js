@@ -3,5 +3,7 @@ export class Person {
     this.age = age;
     this.lifeExp = lifeExp;
     this.name = name;
+
+    this.yearsRem = (lifeExp - age);
   }
 }
