@@ -8,6 +8,7 @@ export class Person {
   }
 
   mercury() {
-    this.mercuryAge = (this.age * 0.24)
+    this.mercuryAge = (this.age / 0.24)
+    this.mercuryLE = (this.yearsRem / 0.24)
   }
 }
