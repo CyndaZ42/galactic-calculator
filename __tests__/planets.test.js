@@ -18,15 +18,22 @@ describe ('Planet', () => {
     expect(person.yearsRem).toEqual(84);
   });
 
-  test('should calculate age in mercury years', () => {
+  test('should calculate age in Mercury years', () => {
     const person = new Person(6, 84, "Tad Strange");
     person.mercury();
     expect(person.mercuryAge).toEqual(25);
   });
 
-  test('should calculate years left in mercury years', () => {
+  test('should calculate years left in Mercury years', () => {
     const person = new Person(6, 84, "Tad Strange");
     person.mercury();
     expect(person.mercuryLE).toEqual(325);
   });
+
+  test('should calculate age in Venus years', () => {
+    const person = new Person(31, 93, "Tad Strange");
+    person.venus();
+    expect(person.venusAge).toEqual(50);
+  });
+
 });
