@@ -41,4 +41,10 @@ describe ('Planet', () => {
     person.venus();
     expect(person.venusLE).toEqual(100);
   });
+
+  test('should calculate age in Jupiter years', () => {
+    const person = new Person(47, 94, "Tad Strange");
+    person.jupiter();
+    expect(person.jupiterAge).toEqual(25);
+  });
 });
