@@ -13,6 +13,7 @@ export class Person {
   }
 
   venus() {
-    this.venusAge = (this.age / .62);
+    this.venusAge = (this.age / 0.62);
+    this.venusLE = (this.yearsRem / 0.62);
   }
 }
