@@ -6,4 +6,8 @@ export class Person {
 
     this.yearsRem = (lifeExp - age);
   }
+
+  mercury() {
+    this.mercuryAge = (this.age * 0.24)
+  }
 }
