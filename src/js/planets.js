@@ -13,22 +13,22 @@ export class Person {
   }
   
   mercury() {
-    this.mercuryAge = Math.round((this.age / 0.24) * 100) / 100;
-    this.mercuryLE = Math.round((this.yearsRem / 0.24) * 100) / 100;
+    this.mercuryAge = Math.round((this.age / 0.24) * 1000) / 1000;
+    this.mercuryLE = Math.round((this.yearsRem / 0.24) * 1000) / 1000;
   }
 
   venus() {
-    this.venusAge = Math.round((this.age / 0.62) * 100) / 100;
-    this.venusLE = Math.round((this.yearsRem / 0.62) * 100) / 100;
+    this.venusAge = Math.round((this.age / 0.62) * 1000) / 1000;
+    this.venusLE = Math.round((this.yearsRem / 0.62) * 1000) / 1000;
   }
 
   mars() {
-    this.marsAge = Math.round((this.age / 1.88) * 100) / 100;
-    this.marsLE = Math.round((this.yearsRem / 1.88) * 100) / 100;
+    this.marsAge = Math.round((this.age / 1.88) * 1000) / 1000;
+    this.marsLE = Math.round((this.yearsRem / 1.88) * 1000) / 1000;
   }
 
   jupiter() {
-    this.jupiterAge = Math.round((this.age / 11.86 * 100) / 100);
-    this.jupiterLE = Math.round((this.yearsRem / 11.86) * 100) / 100;
+    this.jupiterAge = Math.round((this.age / 11.86 * 1000) / 1000);
+    this.jupiterLE = Math.round((this.yearsRem / 11.86) * 1000) / 1000;
   }
 }
