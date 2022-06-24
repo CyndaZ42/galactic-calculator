@@ -12,4 +12,9 @@ describe ('Planet', () => {
     expect(person.lifeExp).toEqual(85);
     expect(person.name).toEqual("Tad Strange");
   });
+
+  test('should calculate how many years a user has left to live', () => {
+    const person = new Person(1, 85, "Tad Strange");
+    expect(person.yearsRem).toEqual(84);
+  });
 });
