@@ -1,7 +1,7 @@
 {
-  "name": "template-repo",
+  "name": "galactic-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "* _HTML_\r * _CSS_\r * _JavaScript_",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
@@ -32,5 +32,13 @@
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyndaZ42/galactic-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CyndaZ42/galactic-calculator/issues"
+  },
+  "homepage": "https://github.com/CyndaZ42/galactic-calculator#readme"
 }
