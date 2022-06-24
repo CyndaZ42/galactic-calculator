@@ -16,4 +16,8 @@ export class Person {
     this.venusAge = (this.age / 0.62);
     this.venusLE = (this.yearsRem / 0.62);
   }
+
+  jupiter() {
+    this.jupiterAge = (this.age / 1.88);
+  }
 }
