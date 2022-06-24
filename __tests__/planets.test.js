@@ -36,4 +36,9 @@ describe ('Planet', () => {
     expect(person.venusAge).toEqual(50);
   });
 
+  test('should calculate years left in Venus years', () => {
+    const person = new Person(31, 93, "Tad Strange");
+    person.venus();
+    expect(person.venusLE).toEqual(100);
+  });
 });
