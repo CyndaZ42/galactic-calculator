@@ -1,20 +1,58 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>The Galactic Calculator</title>
-</head>
-<body>
-  <div class="container">
-    <form id="person-creator">
-      <h2>Enter your name:</h2>
-      <input id="name" class="form-control" type="text">
-      <label for="age">Enter your age</label>
-      <input type="number" id="age" min="1">
-      <br>
-      <label for="lifeExp">Enter your Life Expectancy</label>
-      <input type="number" id="lifeExp" min="1">
-      <button type="submit" form-id="person-creator">Calculate My Galactic Age!</button>
-    </form>
-  </div>
-</body>
+<html lang="Human">
+  <head>
+    <title>The Galactic Calculator</title>
+  </head>
+
+  <body>
+    <div class="container" id="calculator">
+      <h1><em>The Galactic Calculator</em></h1>
+      <form id="person-creator">
+        <div class="input-box">
+          <label for="name">Enter your name: </label>
+          <input id="name" type="text">
+        </div>
+        <br>
+        <div class="input-box">
+          <label for="age">Enter your age: </label>
+          <input id="age" type="number" min="1">
+        </div>
+        <br>
+        <div class="input-box">
+          <label for="lifeExp">Enter your Life Expectancy: </label>
+          <input id="lifeExp" type="number" min="1">
+        </div>
+        <br>
+        <button type="submit" form-id="person-creator">
+          Calculate My Galactic Age!
+        </button>
+      </form>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h3>Mercury</h3>
+          <img src="assets/images/mercury.png" alt="The planet Mercury">
+          <div id="mercury"></div>
+        </div>
+        <div class="col-3">
+          <h3>Venus</h3>
+          <img src="assets/images/venus.png" alt="The planet Venus">
+          <div id="venus"></div>
+        </div>
+        <div class="col-3">
+          <h3>Earth</h3>
+          <img src="assets/images/earth.png" alt="The planet Earth">
+          <div id="earth"></div>
+        </div>
+        <div class="col-3">
+          <h3>Jupiter</h3>
+          <img src="assets/images/jupiter.png" alt="The planet jupiter">
+          <div id="jupiter"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

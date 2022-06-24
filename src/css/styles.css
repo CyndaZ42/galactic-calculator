@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../assets/images/space.png);
+  background-size: auto,2400px;
+  background-repeat: repeat-x;
+  background-position: center fixed;
+  background-attachment: fixed;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+}
+
+#calculator {
+  margin: 3%;
+  padding-bottom: 1%;
+  width: 470px;
+  float: left;
+  border: 0.8rem silver;
+  border-style: inset groove groove inset;
+  outline: silver outset 0.5rem;
+  background-image: radial-gradient(closest-side, #f5f5f5, #e2e1e1, #d0d0d0, #c8c8c8, #c8c8c8, #c0c0c0, #6c6c6c);
+}
+
+.input-box {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+input {
+  float: right;
+}
+
+
+
+
