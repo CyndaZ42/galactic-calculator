@@ -5,20 +5,25 @@ export class Person {
     this.name = name;
 
     this.yearsRem = Math.max(lifeExp - age, (lifeExp - age) * -1);
+    if ((lifeExp - age) < 0) {
+      this.old = "You are past the life expectancy by ";
+    } else {
+      this.old = "You have aproxamately ";
+    }
   }
-
+  
   mercury() {
-    this.mercuryAge = (this.age / 0.24);
-    this.mercuryLE = (this.yearsRem / 0.24);
+    this.mercuryAge = Math.round((this.age / 0.24) * 100) / 100;
+    this.mercuryLE = Math.round((this.yearsRem / 0.24) * 100) / 100;
   }
 
   venus() {
-    this.venusAge = (this.age / 0.62);
-    this.venusLE = (this.yearsRem / 0.62);
+    this.venusAge = Math.round((this.age / 0.62) * 100) / 100;
+    this.venusLE = Math.round((this.yearsRem / 0.62) * 100) / 100;
   }
 
   jupiter() {
-    this.jupiterAge = (this.age / 1.88);
-    this.jupiterLE = (this.yearsRem / 1.88);
+    this.jupiterAge = Math.round((this.age / 1.88) * 100) / 100;
+    this.jupiterLE = Math.round((this.yearsRem / 1.88) * 100) / 100;
   }
 }
