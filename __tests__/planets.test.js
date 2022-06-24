@@ -53,4 +53,9 @@ describe ('Planet', () => {
     person.jupiter();
     expect(person.jupiterLE).toEqual(25);
   });
+
+  test('should return a positive number if user has lived past life expectancy', () => {
+    const person = new Person(105, 100, "Tad Strange");
+    expect(person.yearsRem).toEqual(5);
+  });
 });
