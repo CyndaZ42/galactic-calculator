@@ -4,7 +4,7 @@ export class Person {
     this.lifeExp = lifeExp;
     this.name = name;
 
-    this.yearsRem = (lifeExp - age);
+    this.yearsRem = Math.max(lifeExp - age, (lifeExp - age) * -1);
   }
 
   mercury() {
