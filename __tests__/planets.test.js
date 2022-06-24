@@ -19,8 +19,14 @@ describe ('Planet', () => {
   });
 
   test('should calculate age in mercury years', () => {
-    const person = new Person(25, 85, "Tad Strange");
+    const person = new Person(6, 84, "Tad Strange");
     person.mercury();
-    expect(person.mercuryAge).toEqual(6);
+    expect(person.mercuryAge).toEqual(25);
+  });
+
+  test('should calculate years left in mercury years', () => {
+    const person = new Person(6, 84, "Tad Strange");
+    person.mercury();
+    expect(person.mercuryLE).toEqual(325);
   });
 });
