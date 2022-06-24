@@ -22,8 +22,8 @@ export class Person {
     this.venusLE = Math.round((this.yearsRem / 0.62) * 100) / 100;
   }
 
-  jupiter() {
-    this.jupiterAge = Math.round((this.age / 1.88) * 100) / 100;
-    this.jupiterLE = Math.round((this.yearsRem / 1.88) * 100) / 100;
+  mars() {
+    this.marsAge = Math.round((this.age / 1.88) * 100) / 100;
+    this.marsLE = Math.round((this.yearsRem / 1.88) * 100) / 100;
   }
 }

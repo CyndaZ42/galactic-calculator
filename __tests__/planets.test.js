@@ -42,16 +42,16 @@ describe ('Planet', () => {
     expect(person.venusLE).toEqual(100);
   });
 
-  test('should calculate age in Jupiter years', () => {
+  test('should calculate age in mars years', () => {
     const person = new Person(47, 94, "Tad Strange");
-    person.jupiter();
-    expect(person.jupiterAge).toEqual(25);
+    person.mars();
+    expect(person.marsAge).toEqual(25);
   });
 
-  test('should calculate years left in jupiter years', () => {
+  test('should calculate years left in mars years', () => {
     const person = new Person(47, 94, "Tad Strange");
-    person.jupiter();
-    expect(person.jupiterLE).toEqual(25);
+    person.mars();
+    expect(person.marsLE).toEqual(25);
   });
 
   test('should return a positive number if user has lived past life expectancy', () => {
