@@ -58,4 +58,12 @@ describe ('Planet', () => {
     const person = new Person(105, 100, "Tad Strange");
     expect(person.yearsRem).toEqual(5);
   });
-});
+
+    test('should calculate age and years left in Jupiter years', () => {
+      const person = new Person(24, 96, "Tad Strange");
+      person.jupiter();
+      expect(person.jupiterAge).toEqual(2);
+      expect(person.jupiterLE).toEqual(6.07);
+    });
+
+  });
